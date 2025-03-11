@@ -56,8 +56,8 @@ else if(n==2)
 
 
     std::cout << "Pentru primii " << n << " termeni ai secventei Kolakoski:" << std::endl;
-    std::cout << "Număr de cifre 1: " << nr1 << std::endl;
-    std::cout << "Număr de cifre 2: " << nr2 << std::endl;
+    std::cout << "Numărul de 1: " << nr1 << std::endl;
+    std::cout << "Numărul de 2: " << nr2 << std::endl;
     std::cout << "Densitatea cifrelor de 1: " << std::fixed << std::setprecision(8) << density1 << std::endl;
     std::cout << "Densitatea cifrelor de 2: " << std::fixed << std::setprecision(8) << density2 << std::endl;
 }
