@@ -28,10 +28,10 @@ else if(n==2)
     long long nr_total = 3; // Număr total de termeni generați
     long long nr1 = 1;  // Număr de 1
     long long nr2 = 2;// Număr de 2
-//Afisare secventa
-//std::cout<<1<<" "<<2<<" "<<2<<" ";
-k.pop();
-k.pop();
+    //Afisare secventa
+    //std::cout<<1<<" "<<2<<" "<<2<<" ";
+    k.pop();
+    k.pop();
     while (nr_total < n) {
         ultim = 3 - ultim;
         // Extragem lungimea curentă a grupului
@@ -49,16 +49,8 @@ k.pop();
                 nr2++;
             }
             nr_total++;
-
-
-
         }
-
-
-
-    }
-
-
+    }    
     double density1 = static_cast<double>(nr1) / n;
     double density2 = static_cast<double>(nr2) / n;
 
